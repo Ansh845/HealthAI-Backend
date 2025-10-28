@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+// not using this, instead using ingestSchema right now.
 const intakeDocumentSchema = new mongoose.Schema(
   {
     pseudonymId: { type: String, required: true },
